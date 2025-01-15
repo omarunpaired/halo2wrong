@@ -10,6 +10,9 @@ num-bigint = { git = "https://github.com/omarunpaired/num-bigint", features = [
 ] }
 num-integer = "0.1"
 num-traits = "0.2"
+getrandom = { version = "0.2.15", features = ["js"] }
+rand_core = { version = "0.6", default-features = false }
+rand = "0.8"
 halo2 = { package = "halo2_proofs", git = "https://github.com/privacy-scaling-explorations/halo2", tag = "v0.3.0" }
 
 [features]
