@@ -5,7 +5,9 @@ edition = "2021"
 
 [dependencies]
 ecc = { path = "../ecc", default-features = false }
-num-bigint = { version = "0.4", features = ["rand"] }
+num-bigint = { git = "https://github.com/omarunpaired/num-bigint", features = [
+    "rand",
+] }
 num-integer = "0.1"
 num-traits = "0.2"
 rand = "0.8"
